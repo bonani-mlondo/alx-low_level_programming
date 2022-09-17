@@ -18,4 +18,4 @@ fp--;
 }
 printf("%ld\n", fp);
 return (0);
-}  
+}
