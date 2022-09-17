@@ -1,23 +1,32 @@
 #include "main.h"
 /**
-* main - main function
-*
-* Return: returns 0
+* main - prints Buzz each numbers of 3 and 5.
+* Return: Always 0.
 */
 int main(void)
-unsigned int a = 2;
-unsigned long n = 612852475143;
-while (a != n)
 {
-if (n % a == 0)
+int n;
+n = 1;
+printf("%d", n);
+for (n = 2; n <= 100; n++)
 {
-n = n / a;
+if ((n % 3 == 0) && (n % 5 == 0))
+{
+printf(" FizzBuzz");
+}
+else if (n % 3 == 0)
+{
+printf(" Fizz");
+}
+else if (n % 5 == 0)
+{
+printf(" Buzz");
 }
 else
 {
-a++;
+printf(" %d", n);
 }
 }
-printf("%lu\n", n);
+printf("\n");
 return (0);
 }
