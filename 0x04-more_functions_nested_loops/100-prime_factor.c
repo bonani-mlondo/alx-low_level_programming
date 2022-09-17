@@ -1,33 +1,21 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* main - prints Buzz each numbers of 3 and 5.
+* main - prints largest prime factor.
 * Return: Always 0.
 */
 int main(void)
 {
-int n;
-n = 1;
-printf("%d", n);
-for (n = 2; n <= 100; n++)
+long int n, fp;
+n = 612852475143;
+for (fp = 2; fp <= n; fp++)
 {
-if ((n % 3 == 0) && (n % 5 == 0))
+if (n % fp == 0)
 {
-printf("FizzBuzz");
-}
-else if (n % 3 == 0)
-{
-printf("Fizz");
-}
-else if (n % 5 == 0)
-{
-printf("Buzz");
-}
-else
-{
-printf("%d", n);
+n /= fp;
+fp--;
 }
 }
-printf("\n");
+printf("%ld\n", fp);
 return (0);
-}
+}  
