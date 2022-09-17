@@ -1,8 +1,7 @@
 #include "main.h"
 /**
 * main - main function
-*
-*
+
 * Return: a number
 */
 int main(void)
