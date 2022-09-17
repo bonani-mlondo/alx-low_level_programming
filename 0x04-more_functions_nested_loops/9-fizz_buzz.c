@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
 * main - main function
-
 * Return: a number
 */
 int main(void)
@@ -30,3 +29,4 @@ printf(" ");
 printf("\n");
 return (0);
 }
+
