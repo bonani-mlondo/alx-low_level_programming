@@ -16,7 +16,7 @@ n = n / a;
 else
 {
 a++;
-} 
+}
 }
 printf("%lu\n", n);
 return (0);
