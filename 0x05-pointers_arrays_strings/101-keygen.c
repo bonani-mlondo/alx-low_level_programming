@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h> 
+#include <time.h>
 /**
 * main - generates keygen.
 * Return: 0 Always.
@@ -9,7 +9,7 @@ int main(void)
 {
 int r = 0, c = 0;
 time_t t;
-stdrand((unsigned int) time(&t));
+srand((unsigned int) time(&t));
 while (c < 2772)
 {
 r = rand() % 128;
