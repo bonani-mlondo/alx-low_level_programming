@@ -10,8 +10,7 @@
          int i; 
          int diagO = 0; 
          int diagT = 0; 
-  
-         for (i = 0; i < size; i++) 
+ for (i = 0; i < size; i++) 
          { 
                  diagO += a[(i * size) + i]; 
                  diagT += a[(size - 1) + ((size - 1) * i)]; 
