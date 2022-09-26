@@ -5,7 +5,7 @@
 * @a: array to use
 * @size: size of diagonal
 */
-void print_diagsums(int *a, int size) 
+void print_diagsums(int *a, int size)
 {
 int i;
 int diagO = 0;
