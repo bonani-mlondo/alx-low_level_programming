@@ -5,7 +5,7 @@
 * @c: iterator.
 * Return: 1 if n is a prime number. 0 if n is not a prime number.
 */
-int helper(int i, int n)
+int power_operation(int n, int c)
 {
 if (c % (n / c) == 0)
 {
