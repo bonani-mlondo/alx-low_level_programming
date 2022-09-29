@@ -21,7 +21,7 @@ return (0 + is_prime(n, c + 1));
 * @n: input number.
 * Return: 1 if n is a prime number. 0 if n is not a prime number.
 */
-int is_prime_number(int n)
+int _sqrt_recursion(int n)
 {
 if (n == 0)
 return (0);
