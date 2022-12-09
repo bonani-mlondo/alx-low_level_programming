@@ -23,4 +23,4 @@ head = head->next;
 i++;
 }
 return (head);
-}f
+}
