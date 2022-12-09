@@ -20,5 +20,5 @@ sum += head->n;
 head = head->next;
 }
 }
-return (sum);
+return (sum);f
 }
