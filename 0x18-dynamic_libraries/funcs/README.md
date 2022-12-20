@@ -1,1 +1,1 @@
-#Solutions to task on dynamic libraries
+Solutions to task on dynamic libraries
