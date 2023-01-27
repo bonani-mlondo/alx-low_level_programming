@@ -1,3 +1,5 @@
+![C banner image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Clanguage-1024x341.png)
+
 # Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming
 
 This repository contains programs written for the low-level programming and
